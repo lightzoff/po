@@ -846,7 +846,7 @@
 		}
 
 		.wrapper.style2 {
-			background: #192024;
+			background: #2b1d0e;
 			color: #c5c7c8;
 		}
 
@@ -886,13 +886,15 @@
 		color: #555f66;
 		cursor: default;
 		height: 3em;
-		left: 0;
 		line-height: 3em;
 		position: fixed;
+        margin:0 auto;
 		top: 0;
 		width: 100%;
 		z-index: 10000;
 		box-shadow: 0 0 0.1em 0 rgba(0, 0, 0, 0.25);
+        text-align:center;
+        
 	}
 
 		#header h1 {
@@ -908,29 +910,30 @@
 		}
 
 			#header h1 a {
-				font-size: 1.25em;
+				font-size: 2em;
 			}
 
 		#header nav {
 			height: inherit;
 			line-height: inherit;
-			position: absolute;
+			position: inherit;
 			right: 1.25em;
 			top: 0;
 			vertical-align: middle;
+            text-align:center;
 		}
 
 			#header nav > ul {
 				list-style: none;
-				margin: 0;
 				padding-left: 0;
+                display:inline;
 			}
 
 				#header nav > ul > li {
 					border-radius: 6px;
-					display: inline-block;
 					margin-left: 2em;
 					padding-left: 0;
+                    display: inline;
 				}
 
 					#header nav > ul > li a {
