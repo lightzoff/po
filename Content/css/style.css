@@ -631,7 +631,7 @@
 		}
 
 			table tbody tr:nth-child(2n + 1) {
-				background-color: rgba(144, 144, 144, 0.075);
+				background-color: rgba(144, 144, 144, 0.075); 
 			}
 
 		table td {
@@ -1092,7 +1092,6 @@
 
 table { 
     border-spacing: 10px;
-    border-collapse: separate;
 }
 
 td {
